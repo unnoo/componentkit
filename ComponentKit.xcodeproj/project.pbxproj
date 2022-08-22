@@ -2876,11 +2876,12 @@
 		B3EECEB91AC2366500BFC5DA = {
 			isa = PBXGroup;
 			children = (
+				D4BC578123E37A1B0075D688 /* CKSwift */,
 				D42B78D325176C9400DAC4D5 /* CKTextSwift */,
 				D0B47AC21CBD926700BB33CE /* ComponentKit */,
-				153B64C428B371E300C49565 /* yoga */,
 				D0B47C3F1CBD92C200BB33CE /* ComponentTextKit */,
 				723958B1238E9B21005B570A /* RenderCore */,
+				153B64C428B371E300C49565 /* yoga */,
 				B342DCBF1AC2443F00ACAC53 /* ComponentKitApplicationsTestsHost */,
 				A1AB4F9123350D86001F41DB /* ComponentKitPerfTests */,
 				B342DC411AC23E8200ACAC53 /* ComponentKitTests */,
@@ -2888,7 +2889,6 @@
 				B342DCAB1AC23F2A00ACAC53 /* ComponentTextKitApplicationTests */,
 				A273801B1AFD144100E6F222 /* ComponentKitTestHelpers */,
 				D0B47D961CBDA97400BB33CE /* ComponentSnapshotTestCase */,
-				D4BC578123E37A1B0075D688 /* CKSwift */,
 				D4BC578E23E37A1B0075D688 /* CKSwiftTests */,
 				D0B47D811CBD9E7C00BB33CE /* Frameworks */,
 				B3EECEC31AC2366600BFC5DA /* Products */,
