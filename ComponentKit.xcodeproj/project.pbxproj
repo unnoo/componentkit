@@ -793,9 +793,7 @@
 		D431881E23E2057E0024AA12 /* RenderCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D431881723E2057E0024AA12 /* RenderCore.framework */; };
 		D431881F23E2057E0024AA12 /* RenderCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D431881723E2057E0024AA12 /* RenderCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D431882323E2059F0024AA12 /* RenderCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D431881723E2057E0024AA12 /* RenderCore.framework */; };
-		D431882423E2059F0024AA12 /* RenderCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D431881723E2057E0024AA12 /* RenderCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D431882823E205A70024AA12 /* RenderCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D431880023E2056C0024AA12 /* RenderCore.framework */; };
-		D431882923E205A70024AA12 /* RenderCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D431880023E2056C0024AA12 /* RenderCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D431882F23E205F00024AA12 /* CKDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D431BCC223DAFCFF002144E7 /* CKDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D431883023E205F00024AA12 /* RCAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 723958E3238E9B21005B570A /* RCAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D431883123E205F00024AA12 /* CKNonNull.h in Headers */ = {isa = PBXBuildFile; fileRef = 723958DC238E9B21005B570A /* CKNonNull.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -920,7 +918,6 @@
 		D44B215524B73DFE0019E851 /* CKIdValueWrapperInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = D44B215024B73DFE0019E851 /* CKIdValueWrapperInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D44B215624B73DFE0019E851 /* CKIdValueWrapperInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = D44B215024B73DFE0019E851 /* CKIdValueWrapperInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D44B31EC2517D03700674830 /* ComponentTextKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42B787A2517675100DAC4D5 /* ComponentTextKit.framework */; platformFilter = ios; };
-		D44B31ED2517D03700674830 /* ComponentTextKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D42B787A2517675100DAC4D5 /* ComponentTextKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D44B31FA2517D05800674830 /* ComponentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B47AB51CBD924100BB33CE /* ComponentKit.framework */; };
 		D4548D55251773040038B9A4 /* ComponentTextKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D4548D49251772C30038B9A4 /* ComponentTextKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D461755225177822004FC1A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B47D871CBDA24900BB33CE /* UIKit.framework */; };
@@ -1033,7 +1030,6 @@
 		D4BC579623E37A1B0075D688 /* CKSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4BC578023E37A1B0075D688 /* CKSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4BC579E23E37A240075D688 /* CKSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC579D23E37A240075D688 /* CKSwift.swift */; };
 		D4BC57A123E383840075D688 /* ComponentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B47AB51CBD924100BB33CE /* ComponentKit.framework */; };
-		D4BC57A223E383840075D688 /* ComponentKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0B47AB51CBD924100BB33CE /* ComponentKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4BC57BE23E3849A0075D688 /* ComponentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B47AB51CBD924100BB33CE /* ComponentKit.framework */; };
 		D4BC57BF23E3849A0075D688 /* RenderCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D431881723E2057E0024AA12 /* RenderCore.framework */; };
 		D4C1270A2517ACB6006AD1A4 /* CKSizingComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EAA5602514F6FC00F32DC1 /* CKSizingComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1466,50 +1462,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D41CB467251776FB00DA42E2 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D44B31ED2517D03700674830 /* ComponentTextKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D431882723E2059F0024AA12 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D431882423E2059F0024AA12 /* RenderCore.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D431882C23E205A70024AA12 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D431882923E205A70024AA12 /* RenderCore.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4BC57A923E383840075D688 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D4BC57A223E383840075D688 /* ComponentKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4298,7 +4250,6 @@
 				03B8B4CE1D2A346F00EDFF59 /* Frameworks */,
 				03B8B4CF1D2A346F00EDFF59 /* Headers */,
 				03B8B5661D2A346F00EDFF59 /* Resources */,
-				D431882C23E205A70024AA12 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -4469,7 +4420,6 @@
 				D0B47AB11CBD924100BB33CE /* Frameworks */,
 				D0B47AB21CBD924100BB33CE /* Headers */,
 				D0B47AB31CBD924100BB33CE /* Resources */,
-				D431882723E2059F0024AA12 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -4509,7 +4459,6 @@
 				D42B78BD25176C4000DAC4D5 /* Sources */,
 				D42B78C525176C4000DAC4D5 /* Frameworks */,
 				D42B78C825176C4000DAC4D5 /* Resources */,
-				D41CB467251776FB00DA42E2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -4567,7 +4516,6 @@
 				D4BC577C23E37A1B0075D688 /* Sources */,
 				D4BC577D23E37A1B0075D688 /* Frameworks */,
 				D4BC577E23E37A1B0075D688 /* Resources */,
-				D4BC57A923E383840075D688 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
