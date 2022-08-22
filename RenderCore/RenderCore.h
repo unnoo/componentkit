@@ -53,3 +53,4 @@
 #import <RenderCore/ComponentMountContext.h>
 #import <RenderCore/ComponentViewManager.h>
 #import <RenderCore/ComponentViewReuseUtilities.h>
+#import <RenderCore/RCComputeRootLayout.h>
