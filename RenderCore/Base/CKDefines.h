@@ -11,6 +11,7 @@
 #import <RenderCore/CKMacros.h>
 
 #if defined(__cplusplus) && __cplusplus
+  #import <utility>
   #define CK_SWIFT 0
 #else
   #define CK_SWIFT 1
